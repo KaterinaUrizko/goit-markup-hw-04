@@ -288,7 +288,7 @@ img {
   margin-left: 30px;
 }
 .section.team {
-  max-width: 1600px;
+  /* max-width: 1600px; */
   margin-left: auto;
   margin-right: auto;
   background-color: var(--button-bg-color);
@@ -299,9 +299,9 @@ img {
   padding-left: 32px;
   padding-right: 32px;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
 }
-.team-contact .items {
+.team-contact .links {
   display: flex;
   width: 44px;
   height: 44px;
@@ -309,19 +309,20 @@ img {
   justify-content: center;
   align-items: center;
 }
+
 .team-contact .items + .items {
   margin-left: 10px;
 }
-.team-contact .items:hover,
-.team-contact .items:focus {
+.team-contact .links:hover,
+.team-contact .links:focus {
   background-color: var(--accent-color);
   /* fill: var(--text-white-color); */
 }
 .team-contact .icon {
   fill: var(--main-svg-color);
 }
-.team-contact .icon:hover,
-.team-contact .icon:focus {
+.team-contact a:hover svg,
+.team-contact a:focus svg {
   fill: var(--text-white-color);
 }
 
@@ -356,15 +357,21 @@ img {
 .clients-logo {
   display: flex;
 }
-.clients-list .item {
+.clients-list .link {
+  display: flex;
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
-.clients-list .item:hover,
-.clients-list .item:focus {
+.clients-list .link:hover,
+.clients-list .link:focus {
   border: 1px solid #2196f3;
+  fill: var(--accent-color);
+}
+.clients-list a:hover svg,
+.clients-list a:focus svg {
+  fill: var(--accent-color);
 }
 
 .icon.logo {
@@ -373,10 +380,10 @@ img {
   align-items: center;
   fill: var(--main-svg-color);
 }
-.icon.logo:hover,
+/* .icon.logo:hover,
 .icon.logo:focus {
   fill: var(--accent-color);
-}
+} */
 
 /* Портфолио */
 
