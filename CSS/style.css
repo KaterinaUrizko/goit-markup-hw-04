@@ -511,7 +511,7 @@ img {
   display: flex;
   align-items: center;
 }
-.social .item {
+.social .links {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -523,8 +523,8 @@ img {
 .social .item + .item {
   margin-left: 10px;
 }
-.social .item:hover,
-.social .item:focus {
+.social .links:hover,
+.social .links:focus {
   background-color: var(--accent-color);
 }
 .social .icon {
