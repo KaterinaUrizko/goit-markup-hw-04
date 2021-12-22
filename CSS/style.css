@@ -473,12 +473,12 @@ img {
 /* Контакты */
 .logo.footer {
   display: block;
-  background-color: var(--black-bg-color);
+  /* background-color: var(--black-bg-color); */
   margin-bottom: 20px;
 }
 .contact {
   color: var(--text-white-color);
-  background-color: var(--black-bg-color);
+  /* background-color: var(--black-bg-color); */
   font-style: normal;
   font-weight: normal;
   line-height: 1.71;
